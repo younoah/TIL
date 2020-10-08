@@ -31,5 +31,9 @@
 
 - [SSH란?](./Network/SSH란?.md)
 
+
+
 ## Deployment
+
+- [gcp로 장고 배포하기](./tree/master/Network/gcp로-장고-배포하기.md)
 
