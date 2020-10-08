@@ -29,11 +29,11 @@
 
 ## Network
 
-- [SSH란?](./tree/master/Network/SSH란?.md)
+- [SSH란?]()
 
 
 
 ## Deployment
 
-- [gcp로 장고 배포하기](./tree/master/Network/gcp로%장고%배포하기.md)
+- [gcp로 장고 배포하기]()
 
