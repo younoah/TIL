@@ -117,5 +117,5 @@ git config --global alias.st status
 
 ### git workflow
 
-![깃작업환경](./images/깃작업환경.jpg)
+![깃작업환경](./images/git_workflow.jpg)
 
