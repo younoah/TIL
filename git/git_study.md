@@ -343,7 +343,7 @@ git diff 해쉬코드1 해쉬코드2 파일명 // 두 해쉬코드의 커밋에�
 
 ## Head 와 Master 브랜치
 
-![git_head_master](/Users/uno/Desktop/git_head_master.png)
+![git_head_master](./images/git_head_master.png)
 
 
 
@@ -409,7 +409,7 @@ git log --oneline --graph --all
 
 ### sementic versioning (시멘틱 버전)
 
-![sementic_versioning](/Users/uno/Desktop/sementic_versioning.png)
+![sementic_versioning](./images/sementic_versioning.png)
 
 시멘틱 버전은 대중적으로 많이 사용하는 버전 표기 방식이다. 숫자 3가지를 사용하여 메이저버전, 마이너업데이트, 픽스 버전을 구분해서 정한다.
 
