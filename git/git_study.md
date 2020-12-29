@@ -297,7 +297,7 @@ git commit -am "메세지"
 
 ## git으로 파일삭제 & 파일명 변경
 
-![git_file_change_delete](/Users/uno/Desktop/git_file_change_delete.png)
+![git_file_change_delete](./images/git_file_change_delete.png)
 
 일반적으로 `rm` `mv` 명령어로 파일을 삭제하거나 파일명을 변경하면 위와 같이 파일에 대한 변경사항이 staged area에 추가되지 않아 `git add` 를 또 해야한다.
 
