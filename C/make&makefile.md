@@ -1,6 +1,8 @@
-## 빌드 예제
+## 0. make와 makefile이란?
 
-![compile](/Users/uno/Desktop/TIL/C/images/compile.png)
+SHELL에서 컴파일을 할 때 
 
-출처 : 제타위키 (https://zetawiki.com/wiki/Makefile_%EB%A7%8C%EB%93%A4%EA%B8%B0)
+## 1. 빌드 예제
+
+## 2. makefile 만들기
 
