@@ -63,3 +63,14 @@ $./a.out
 hello, world!
 ```
 
+
+
+
+
+## 참고
+
+> https://ssinyoung.tistory.com/2
+>
+> https://gracefulprograming.tistory.com/16
+>
+> https://brunch.co.kr/@mystoryg/57
