@@ -34,7 +34,66 @@
 
 ![block&inline](./images/block&inline.png)
 
-태그들은 한줄을 차지하는 Block인지 한줄에 여러개가 배치될 수 있는 Inline인지 레벨이 정해저 있다. 태그의 속성에 `inline`, `block` , `inline-block` 키워드를 작성함으로써 변경도 가능하다.
+태그들은 한줄을 차지하는 Block인지 한줄에 여러개가 배치될 수 있는 Inline인지 레벨이 정해저 있다.  css명령어를 통해서 변경도 가능하다.
+
+
+
+### 블록요소 (block element)
+
+- 블록 요소는 모든 **인라인 요소를 포함**할 수 있고 다른 **블록 요소도 일부 포함** 할 수 있다. 
+- **가로폭 전체의 넓이를 가지는 직사각형 형태**이며 `width`, `height`, `margin`, `padding` 등으로 레이아웃을 수정할 수 있다. 
+- 블록 요소 다음에는 **줄바꿈**이 이루어 진다.
+
+`display:block` CSS명령어로 블록으로 변경 할 수 있다.
+
+```html
+div {display:block}
+```
+
+
+
+**블록 요소인 태그 종류**
+
+> `address`, `article`, `aside`, `audio`, `blockquote`, `canvas`, `dd`, `div`, `dl`, `fieldset`, `figcaption`, `figure`, `footer`, `form`, `h1`, `h2`, `h3`, `h4`, `h5`, `h6`, `header`, `hgroup`, `hr`, `noscript`, `ol`, `output`, `p`, `pre`, `section`, `table`, `ul`, `video`
+
+
+
+### 인라인 요쇼 (inline element)
+
+- 인라인 요소는 **항상 블록 요소안에 포함**되어 있으며 **인라인 요소안에 다른 인라인 요소가 포함**될 수 있다. 
+
+- 컨텐츠가 끝나는 지점까지를 넓이로 가지게 된다. 
+
+- 임의로 `width`, `height`로 변형을 줄 수가 없다. 
+
+- 인라인 요소는 `line-height`로 줄의 높낮이를 조절할 수 있고 `text-align`으로 텍스트의 종앙, 좌,우측 정렬을 할 수 있다. 
+
+- 인라인 요소 다음에는 **줄바꿈이 없고** 우측으로 바로 이어서 표시가 된다.
+
+`display:inline` CSS명령어로 인라인으로 변경 할 수 있다.
+
+```html
+div {display:inline}
+```
+
+
+
+**인라인 요소인 태그 종류**
+
+> `a`, `abbr`, `acronym`, `b`, `bdo`, `big`, `br`, `button`, `cite`, `code`, `dfn`, `em`, `i`, `img`, `input`, `kbd`, `label`, `map`, `object`, `q`, `samp`, `small`, `script`, `select`, `span`, `strong`, `sub`, `sup`, `textarea`, `tt`, `var`
+
+
+
+### 인라인-블록 요쇼 (inline-block element)
+
+- 기본적으로 inline요소를 따르지만 block처럼 width나 height를 줄 수 있다.
+- 한마디로 크기를 가지되, inline태그 처럼 줄바꿈이 일어나지 않고 옆으로 쭉 나열된다.
+
+`display:inline-block` CSS명령어로 인라인-블록으로 변경 할 수 있다.
+
+```html
+div {display:inline-block}
+```
 
 
 
